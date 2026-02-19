@@ -213,7 +213,7 @@ export default function HeroSection() {
               }}
             >
               <span className="animate-spark" style={{ fontSize: "10px" }}>✦</span>
-              XD PROTOCOL · BORN TO DEVOUR MARKETS
+              XD · LIVE
             </div>
 
             {/* Heading — each line staggered */}
@@ -230,7 +230,7 @@ export default function HeroSection() {
                   letterSpacing: "-1px",
                 }}
               >
-                The Most
+                Pure
               </span>
               <span
                 className="animate-fade-in-left delay-200"
@@ -243,7 +243,7 @@ export default function HeroSection() {
                   letterSpacing: "-1.5px",
                 }}
               >
-                Irresistible
+                Deep
               </span>
               <span
                 className="animate-fade-in-left delay-300 animate-glow-gold"
@@ -256,7 +256,7 @@ export default function HeroSection() {
                   letterSpacing: "-1px",
                 }}
               >
-                Market Maker
+                Market
               </span>
               <span
                 className="animate-fade-in-left delay-400"
@@ -269,7 +269,7 @@ export default function HeroSection() {
                   letterSpacing: "-1.5px",
                 }}
               >
-                in DeFi
+                Liquidity
               </span>
             </h1>
 
@@ -285,12 +285,7 @@ export default function HeroSection() {
                 maxWidth: "420px",
               }}
             >
-              <strong style={{ color: "#f5f0e8", fontWeight: "600" }}>XD</strong> doesn&apos;t
-              just provide liquidity — it{" "}
-              <strong style={{ color: "#cc0000", fontWeight: "700" }}>commands</strong> it. Powered
-              by Sacred Gear algorithms and lethal precision across{" "}
-              <strong style={{ color: "#f5f0e8" }}>HotStuff</strong>,{" "}
-              <strong style={{ color: "#f5f0e8" }}>Hyperliquid</strong> and every venue that dares host us.
+              Fast routing. Tight spreads. Live on every major venue.
             </p>
 
             {/* CTA buttons */}
@@ -332,7 +327,7 @@ export default function HeroSection() {
                   el.style.boxShadow = "";
                 }}
               >
-                ✦ CLAIM YOUR EDGE
+                START
               </a>
               <a
                 href="#platforms"
@@ -363,7 +358,7 @@ export default function HeroSection() {
                   el.style.transform = "translateY(0)";
                 }}
               >
-                ↓ See Platforms
+                STACK
               </a>
             </div>
           </div>

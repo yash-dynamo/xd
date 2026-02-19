@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const links = ["MARKETS", "THE ARSENAL", "THE CIRCLE", "HOW IT WORKS"];
+const links = ["MARKETS", "STACK", "JOIN", "DOCS"];
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -51,7 +51,7 @@ export default function Navbar() {
                 marginTop: "2px",
               }}
             >
-              LIQUIDITY PROTOCOL
+              LIQUIDITY
             </div>
           </div>
 
@@ -114,7 +114,7 @@ export default function Navbar() {
                 el.style.boxShadow = "none";
               }}
             >
-              ✦ ENTER THE PACT
+              JOIN XD
             </a>
 
             {/* Hamburger button — visible on mobile only */}
@@ -249,7 +249,7 @@ export default function Navbar() {
             width: "100%",
           }}
         >
-          ✦ ENTER THE PACT
+          JOIN XD
         </a>
       </div>
 

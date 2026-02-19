@@ -15,7 +15,7 @@ const cards = [
     color: "#cc0000",
     colorDim: "rgba(204,0,0,0.18)",
     stars: 5,
-    desc: "She doesn't place orders — she lays traps. Every bid a whisper, every ask a dare.",
+    desc: "Deep books. Clean fills.",
     size: "large",
     glowColor: "rgba(204,0,0,0.35)",
   },
@@ -29,7 +29,7 @@ const cards = [
     color: "#7b00c8",
     colorDim: "rgba(123,0,200,0.18)",
     stars: 5,
-    desc: "Fills so fast the orderbook blushes. Latency is her only enemy — and she always wins.",
+    desc: "Low latency. High hit rate.",
     size: "small",
     glowColor: "rgba(123,0,200,0.35)",
   },
@@ -43,7 +43,7 @@ const cards = [
     color: "#2a5aaa",
     colorDim: "rgba(42,90,170,0.18)",
     stars: 4,
-    desc: "Small, silent, unstoppable. She's guarded $420M+ without losing a single dollar.",
+    desc: "Risk first. Always on.",
     size: "small",
     glowColor: "rgba(42,90,170,0.35)",
   },
@@ -57,7 +57,7 @@ const cards = [
     color: "#1a8a3a",
     colorDim: "rgba(26,138,58,0.18)",
     stars: 4,
-    desc: "Drawdowns don't stand a chance. She heals positions before the chart can flinch.",
+    desc: "Recovery engine online.",
     size: "large",
     glowColor: "rgba(26,138,58,0.35)",
   },
@@ -381,7 +381,7 @@ export default function BentoSection() {
                 animation: "live-pulse 2s ease-in-out infinite",
               }}
             />
-            THE INNER CIRCLE
+            CORE TEAM
           </div>
 
           <h2 className="animate-fade-in-up delay-100" style={{ lineHeight: 1.05, margin: 0 }}>
@@ -394,7 +394,7 @@ export default function BentoSection() {
                 color: "#f5f0e8",
               }}
             >
-              Your Deadly
+              Core
             </span>
             <span
               style={{
@@ -406,7 +406,7 @@ export default function BentoSection() {
                 color: "#cc3333",
               }}
             >
-              Weapons
+              Stack
             </span>
           </h2>
 
@@ -421,8 +421,7 @@ export default function BentoSection() {
               lineHeight: 1.7,
             }}
           >
-            Every edge has a face. Every face has a kill count. Hover to reveal
-            who&apos;s been quietly devouring your competition.
+            Four modules. One execution engine.
           </p>
         </div>
 
@@ -455,7 +454,7 @@ export default function BentoSection() {
               letterSpacing: "0.5px",
             }}
           >
-            &ldquo;In the world of market making, only the ravenous survive.&rdquo;
+            Built for speed.
           </span>
           <div style={{ height: "1px", width: "60px", background: "linear-gradient(to left, transparent, rgba(204,0,0,0.3))" }} />
         </div>

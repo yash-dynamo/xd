@@ -5,43 +5,43 @@ import Image from "next/image";
 const features = [
   {
     icon: "⚔",
-    title: "Sacred Gear Algorithms",
-    desc: "Proprietary Sacred Gear–class execution engines that evolve with market conditions — no manual tuning required.",
+    title: "Adaptive Engine",
+    desc: "Auto-tunes to market flow.",
     color: "#cc0000",
     stat: "∞ Power",
   },
   {
     icon: "♾",
-    title: "Infinite Dragon Mode",
-    desc: "Scales liquidity infinitely across any venue. The Boosted Gear of market making — doubling power every 10 seconds.",
+    title: "Scale Mode",
+    desc: "Adds depth where it matters.",
     color: "#c9a227",
     stat: "2× / 10s",
   },
   {
     icon: "✦",
-    title: "Crimson Spread Control",
-    desc: "Tight spreads enforced by Gremory-class precision. Sub-0.01% average across all deployed pairs.",
+    title: "Spread Control",
+    desc: "Tight and stable quotes.",
     color: "#6b00a8",
     stat: "0.008%",
   },
   {
     icon: "◈",
-    title: "Peerage Risk Shield",
-    desc: "Every position guarded by a multi-layer Senjutsu barrier. Drawdowns are vanquished before they bloom.",
+    title: "Risk Guard",
+    desc: "Limits downside fast.",
     color: "#1a7a4a",
     stat: "99.9%",
   },
   {
     icon: "🔥",
-    title: "Balance Breaker Execution",
-    desc: "When others hesitate, we break the seal. Maximum-tier fills at the exact moment of opportunity.",
+    title: "Fast Execution",
+    desc: "Low-latency order routing.",
     color: "#cc4400",
     stat: "<1ms",
   },
   {
     icon: "⬡",
-    title: "Gremory Network Effect",
-    desc: "Cross-venue arbitrage powered by the clan's reach. Every DEX feeds every other. Infinite synergy.",
+    title: "Cross-Venue Sync",
+    desc: "One strategy, many venues.",
     color: "#2a5aaa",
     stat: "7 Venues",
   },
@@ -230,7 +230,7 @@ export default function SeductiveSection() {
                 display: "inline-block",
               }}
             />
-            THE SACRED ARSENAL
+            TOOLSET
           </div>
 
           {/* Heading */}
@@ -245,7 +245,7 @@ export default function SeductiveSection() {
                 color: "#cc3333",
               }}
             >
-              Magnetic
+              Clean
             </span>
             <span
               style={{
@@ -256,7 +256,7 @@ export default function SeductiveSection() {
                 color: "#f5f0e8",
               }}
             >
-              Power. Lethal
+              Design.
             </span>
             <span
               style={{
@@ -268,7 +268,7 @@ export default function SeductiveSection() {
               }}
               className="animate-glow-gold"
             >
-              Precision.
+              Real Edge.
             </span>
           </h2>
 
@@ -282,9 +282,7 @@ export default function SeductiveSection() {
               maxWidth: "440px",
             }}
           >
-            Every tool in XD&apos;s arsenal was forged for one purpose — to make
-            the market bend. Tight spreads, infinite depth, zero hesitation.
-            We don&apos;t follow the orderbook. We write it.
+            Minimal surface. Maximum execution.
           </p>
 
           {/* ── Sacred Arsenal — infinite vertical scroll ── */}

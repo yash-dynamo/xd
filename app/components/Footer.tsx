@@ -3,9 +3,9 @@
 const AIRTABLE_LINK = ""; // TODO: Add Airtable link
 
 const footerLinks = {
-  Protocol: ["Markets", "The Arsenal", "How It Works", "Roadmap"],
-  Community: ["The Inner Circle", "XD Council", "Partner Vaults"],
-  Legal: ["Terms of Service", "Privacy Policy", "Risk Disclosure"],
+  Protocol: ["Markets", "Stack", "Docs"],
+  Community: ["Join", "X", "Discord"],
+  Legal: ["Terms", "Privacy", "Risk"],
 };
 
 export default function Footer() {
@@ -61,7 +61,7 @@ export default function Footer() {
                 marginTop: "4px",
               }}
             >
-              LIQUIDITY PROTOCOL
+              LIQUIDITY
               </div>
             </div>
 
@@ -75,8 +75,7 @@ export default function Footer() {
                 marginBottom: "24px",
               }}
             >
-            The most lethal market maker in DeFi. Spreads so tight they ache.
-            Depth so vast it swallows your competition whole.
+            Deep liquidity for modern markets.
             </p>
 
             {/* Social-style badges */}
@@ -190,7 +189,7 @@ export default function Footer() {
                 color: "#f5f0e8",
               }}
             >
-              Ready to enter the pact?
+              Ready?
             </div>
             <div
               style={{
@@ -200,7 +199,7 @@ export default function Footer() {
                 marginTop: "4px",
               }}
             >
-              Join the most intoxicating liquidity protocol in DeFi.
+              Join XD.
             </div>
           </div>
           <a
@@ -233,7 +232,7 @@ export default function Footer() {
               el.style.boxShadow = "none";
             }}
           >
-            ✦ ENTER THE PACT
+            JOIN XD
           </a>
         </div>
 
@@ -258,7 +257,7 @@ export default function Footer() {
               letterSpacing: "1px",
             }}
           >
-            © 2026 XD Protocol. All rights reserved. Not financial advice.
+            © 2026 XD Protocol.
           </div>
           <div
             style={{
@@ -268,7 +267,7 @@ export default function Footer() {
               color: "#333",
             }}
           >
-            &ldquo;The market doesn&apos;t negotiate. Neither do we.&rdquo;
+            Real-time liquidity.
           </div>
           <div
             style={{

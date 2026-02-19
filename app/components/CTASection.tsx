@@ -71,7 +71,7 @@ export default function CTASection() {
           >
             ✦
           </span>
-          MAKE YOUR PACT WITH XD
+          START NOW
         </div>
 
         {/* Heading */}
@@ -89,7 +89,7 @@ export default function CTASection() {
               color: "#cc3333",
             }}
           >
-            Are You Ready
+            Go
           </span>
           <span
             style={{
@@ -100,12 +100,12 @@ export default function CTASection() {
               color: "#f5f0e8",
             }}
           >
-            to Be{" "}
+            with{" "}
             <span
               style={{ color: "#c9a227" }}
               className="animate-glow-gold"
             >
-              Claimed?
+              XD
             </span>
           </span>
         </h2>
@@ -122,8 +122,7 @@ export default function CTASection() {
             margin: "0 auto 48px",
           }}
         >
-          XD doesn&apos;t ask for your trust. It earns it — spread by spread,
-          fill by fill, in silence. Make your pact. Let the machine do the rest.
+          Live liquidity. Minimal friction.
         </p>
 
         {/* CTA Button */}
@@ -170,7 +169,7 @@ export default function CTASection() {
               el.style.boxShadow = "";
             }}
           >
-            ✦ ENTER THE PACT
+            JOIN XD
           </a>
 
           <a
@@ -202,7 +201,7 @@ export default function CTASection() {
               el.style.transform = "translateY(0)";
             }}
           >
-            LEARN MORE
+            STACK
           </a>
         </div>
 
@@ -218,10 +217,10 @@ export default function CTASection() {
           }}
         >
           {[
-            { label: "$420M+", sub: "Total Volume" },
+            { label: "$420M+", sub: "Volume" },
             { label: "99.9%", sub: "Uptime" },
-            { label: "0.008%", sub: "Avg Spread" },
-            { label: "2+", sub: "Live DEXes" },
+            { label: "0.008%", sub: "Spread" },
+            { label: "2+", sub: "DEXes" },
           ].map((item, i) => (
             <div
               key={i}
